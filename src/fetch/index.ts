@@ -7,3 +7,4 @@
 // export const photosList = () => {
 //     return transformFetch({ method: "GET", router: "/photos/list" })
 // }
+export { }

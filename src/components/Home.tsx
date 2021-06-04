@@ -8,10 +8,10 @@ function Home() {
     <>
       <Header />
       <Switch>
-        <Route exact path="/home/">
+        <Route exact path="/home/home1">
           <HomeView />
         </Route>
-        <Route exact path="/home/">
+        <Route exact path="/home/home2">
           <HomeView />
         </Route>
         <Redirect to="/home/" />
