@@ -1,7 +1,7 @@
 import { useDispatch, useSelector, useStore } from 'react-redux';
 // import { unwrapResult } from '@reduxjs/toolkit';
 import { todosSlice } from '../redux/slice/todos';
-import { fetchAddTodo } from '../redux/asyncThunk/todos';
+// import { fetchAddTodo } from '../redux/asyncThunk/todos';
 import { useEffect } from 'react';
 
 function Home() {
