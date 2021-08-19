@@ -16,7 +16,7 @@ const store = configureStore({
     }), logger],
     // devTools: process.env.NODE_ENV !== 'production',
     preloadedState: {},
-    enhancers: defaultEnhancers => defaultEnhancers,
+    // enhancers: defaultEnhancers => defaultEnhancers,
 })
 
 export default store;
